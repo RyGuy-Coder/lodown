@@ -22,3 +22,21 @@ function each(collection, action) {
     }
 }
 module.exports.each = each;
+
+
+
+/**
+ * 
+ * identity: The identity function takes in a value and returns it unchanged
+ * 
+ * @param {*} value: the value going inside of identity
+ * 
+ * 
+ * @returns {*}: returns the value unchanged
+ */
+function identity (value){
+    // return the value unchanged
+    
+    return value;
+}
+module.exports.identity = identity;
